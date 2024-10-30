@@ -66,7 +66,10 @@ function Home() {
   return (
     <>
       {/* Header Section */}
-      <div className="flex flex-col lg:flex-row lg:gap-16 gap-8 p-4 w-full bg-[#d9d9da] relative overflow-hidden">
+      <div
+        className="flex flex-col lg:flex-row lg:gap-16 gap-8 p-4 w-full relative overflow-hidden"
+        style={{ backgroundImage: "url('/bg.png')" }}
+      >
         <div className="absolute left-0 top-32 flex flex-col ml-10 gap-4 text-start lg:text-left w-full lg:w-[544px]">
           <h1 className="font-bold text-4xl lg:text-5xl xl:text-[60px] leading-tight text-black z-10">
             Get In-Depth Property Insights
@@ -127,7 +130,7 @@ function Home() {
           <img
             src={LoginImage}
             alt="Property insights image"
-            className="absolute top-20 -right-[120px] w-[900px] h-[1100px] object-cover rounded-tl-[600px] rounded-tr-[600px]"
+            className="absolute top-28 -right-[120px] w-[900px] h-[1100px] object-cover rounded-tl-[600px] rounded-tr-[600px]"
           />
         </div>
       </div>

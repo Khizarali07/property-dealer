@@ -27,7 +27,7 @@ function Navbar() {
 
         {/* Register/Login */}
         <div className="flex flex-row items-center gap-2">
-          <img className="w-5" src="/Vector-2.svg" alt="Login" />
+          <img className="w-5" src="/register-login-icon.svg" alt="Login" />
           <p className="font-medium text-sm leading-[14px]">Register / Login</p>
         </div>
 

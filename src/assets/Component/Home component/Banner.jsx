@@ -1,6 +1,9 @@
 function Banner() {
   return (
-    <div className="w-full max-w-[1440px] mx-auto flex flex-col md:flex-row justify-center items-center md:items-end gap-10 md:gap-[60px] p-10 md:p-20 bg-[#DAE6F1]">
+    <div
+      className="w-full max-w-[1440px] mx-auto flex flex-col md:flex-row justify-center items-center md:items-end gap-10 md:gap-[60px] p-10 md:p-20"
+      style={{ backgroundImage: "url('/bg.png')" }}
+    >
       <img
         src="/banner1.png"
         alt="password"

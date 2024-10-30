@@ -2,7 +2,10 @@ import React from "react";
 
 const Leverage = React.forwardRef((props, ref) => (
   <div ref={ref}>
-    <div className="w-full bg-[#D8D8D8] max-w-[1440px] mx-auto flex flex-col items-center gap-10 md:gap-[60px] px-6 md:px-20 py-10 md:py-[100px]">
+    <div
+      className="w-full max-w-[1440px] mx-auto flex flex-col items-center gap-10 md:gap-[60px] px-6 md:px-20 py-10 md:py-[100px]"
+      style={{ backgroundImage: "url('/bg.png')" }}
+    >
       <div className="w-full max-w-[772px] flex flex-col items-center gap-3.5 text-center">
         <span className="font-bold text-3xl md:text-[45px] leading-[36px] md:leading-[54px] capitalize text-black">
           Leverage user-driven power tools for more efficient research

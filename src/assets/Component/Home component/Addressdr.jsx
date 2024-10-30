@@ -1,6 +1,9 @@
 function Addressdr() {
   return (
-    <div className="w-full max-w-[1440px] bg-[#D8D8D8] mx-auto flex flex-col items-center gap-[60px] px-6 md:px-20 py-[50px] md:py-[100px]">
+    <div
+      className="w-full max-w-[1440px] mx-auto flex flex-col items-center gap-[60px] px-6 md:px-20 py-[50px] md:py-[100px]"
+      style={{ backgroundImage: "url('/bg.png')" }}
+    >
       <div className="flex flex-col items-center gap-3.5">
         <span className="font-bold text-3xl md:text-[45px] leading-[54px] text-center capitalize text-black">
           Browse our Address Directory by State

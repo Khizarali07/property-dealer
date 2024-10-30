@@ -41,7 +41,7 @@ const Reviews = React.forwardRef((props, ref) => (
           </div>
         </div>
       </div>
-      <div className="flex flex-col h-full justify-center gap-3 self-stretch w-full max-w-[356px]">
+      <div className="flex flex-col h-full mt-36 pt-2 gap-3 self-stretch w-full max-w-[356px]">
         <div className="flex flex-col justify-end gap-3.5 self-stretch h-auto bg-white p-6 md:p-10 rounded-[10px]">
           <span className="font-bold text-3xl md:text-[45px] leading-[36px] md:leading-[54px] capitalize text-[#1e418d] text-center md:text-left">
             User Reviews
