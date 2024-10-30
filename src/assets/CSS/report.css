@@ -1,0 +1,30 @@
+@keyframes fillBoxGradient {
+  0% {
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  }
+  25% {
+    background: linear-gradient(90deg, #fcba6a 25%, #ffffff 75%);
+  }
+  50% {
+    background: linear-gradient(90deg, #fcba6a 50%, #ffffff 50%);
+  }
+  75% {
+    background: linear-gradient(90deg, #fcba6a 75%, #ffffff 25%);
+  }
+  100% {
+    background: linear-gradient(90deg, #fcba6a 100%, #ffffff 0%);
+  }
+}
+
+.report-box {
+  width: 180px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5px;
+  padding: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+  border: 2px solid #fcba6a;
+  animation: fillBoxGradient 2s linear forwards;
+}

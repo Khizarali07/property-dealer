@@ -1,0 +1,31 @@
+/* Slide-in-up animation */
+@keyframes slideInUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideInUp {
+  animation: slideInUp 3s ease forwards;
+  opacity: 0; /* Ensures components are hidden initially */
+}
+.slideInDown {
+  animation: slideInDown 3s ease forwards;
+  opacity: 0; /* Ensures components are hidden initially */
+}

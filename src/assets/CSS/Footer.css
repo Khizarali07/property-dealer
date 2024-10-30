@@ -1,0 +1,177 @@
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background: #0f2a66;
+}
+.footer-login-register {
+  background: #d9d9da !important;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  gap: 20px;
+}
+.colorChange {
+  color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .sideOne,
+  .sideTwo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-cont {
+    width: 100% !important;
+  }
+
+  .ftext {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .quick-links,
+  .quick-links-two {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer-container {
+    padding: 0 10px;
+  }
+
+  .ftext,
+  .phone .number {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .quick-links-title {
+    font-size: 1rem;
+  }
+
+  .quick-links-item {
+    margin-bottom: 0.2rem;
+  }
+
+  .social1 {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Individual Elements */
+.sideOne {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sideTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  width: 573px;
+  gap: 25px;
+}
+
+.footer-image {
+  display: flex;
+  gap: 5px;
+}
+
+.ftext {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  gap: 8px;
+}
+
+.social1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.quick-links,
+.quick-links-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.quick-links-title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.quick-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quick-links-item {
+  margin-bottom: 0.25rem;
+}
+
+.quick-links-link {
+  text-decoration: none;
+  color: white;
+}
+
+.quick-links-link:hover {
+  text-decoration: underline;
+}
