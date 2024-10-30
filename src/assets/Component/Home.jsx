@@ -3,7 +3,7 @@ import Connect from "./Home component/Connect";
 import Banner from "./Home component/Banner";
 import Header from "./Home component/header";
 import LoginImage from "/login.svg";
-import Leverage from "./Home component/Leverage";
+import Leverage from "./Home component/leverage";
 import Reviews from "./Home component/Reviews";
 import Addressdr from "./Home component/Addressdr";
 import "../CSS/home.css";
