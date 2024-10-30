@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Connect from "./Home component/Connect";
 import Banner from "./Home component/Banner";
-import Header from "./Home component/Header";
+import Header from "./Home component/header";
 import LoginImage from "/login.svg";
 import Leverage from "./Home component/Leverage";
 import Reviews from "./Home component/Reviews";
